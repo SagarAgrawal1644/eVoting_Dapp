@@ -1,4 +1,5 @@
- // SPDX - License-Identifier : MIT 
+// SPDX-License-Identifier: MIT 
+
 pragma solidity ^0.8.2;
 
 contract Voting {
@@ -13,6 +14,7 @@ contract Voting {
     address public owner;
     // map all voters' addresses
     mapping(address => bool) public voters;
+    
     // list of voters
     address[] public listOfVoters;
 
